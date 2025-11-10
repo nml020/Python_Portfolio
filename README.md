@@ -1,6 +1,10 @@
 # NatalieLeBlanc_Python_Portfolio
 This is the Portfolio of Python code that I learned during BISC 4503!
 
+## Using Jupyter Notebooks (1 and 2)
+
+##
+
 ## Python Fundamentals
 
 In this analysis, we learned the basics of the Python System: 
