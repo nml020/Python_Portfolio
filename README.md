@@ -237,6 +237,74 @@ print(numpy.mean(data, axis=1))
      5.925 6.15  6.075 5.75  5.975 5.725 6.3   5.9   6.75  5.925 7.225 6.15
      5.95  6.275 5.7   6.1   6.825 5.975 6.725 5.7   6.25  6.4   7.05  5.9  ]
 
+## Transcription of DNA into RNA
+
+In this analysis, we took Ubiquitin's DNA sequence and transcribed it into RNA:
+
+```python
+# Prompt the user to enter the input fasta file name
+
+input_file_name = input("Enter the name of the input fasta file: ")
+```
+
+    Enter the name of the input fasta file:  Ubiquitin.txt
+
+
+
+```python
+# Open the input fasta file and read the DNA sequence
+
+with open(input_file_name, "r") as input_file:
+    dna_sequence = ""
+    for line in input_file:
+        if line.startswith(">"):
+            continue
+        dna_sequence += line.strip()
+```
+
+
+```python
+# Transcribe the DNA to RNA
+rna_sequence = ""
+for nucleotide in dna_sequence:
+    if nucleotide =="T":
+        rna_sequence += "U"
+    else:
+        rna_sequence += nucleotide
+```
+
+
+```python
+# Prompt the user to enter the output file name
+
+output_file_name = input("Enter the name of the output file: ")
+```
+
+    Enter the name of the output file:  Ubiquitin_RNA.txt
+
+
+
+```python
+# Save the RNA sequence to a text file
+with open(output_file_name, "w") as output_file:
+    output_file.write(rna_sequence)
+    print("The RNA sequence has been saved to {output_file_name}")
+```
+
+    The RNA sequence has been saved to {output_file_name}
+
+
+
+```python
+print(rna_sequence)
+```
+
+    AUGUCUGACGAAAAGAAGGGAGGUGAGACCGAGCACAUCAACCUGAAGGUCCUCGGCCAGGACAACGCCGUCGUCCAGUUCAAGAUCAAGAAGCACACACCCUUGAGGAAGCUGAUGAACGCCUACUGCGACCGUGCCGGACUCUCCAUGCAGGUGGUGCGCUUCCGUUUCGACGGACAGCCCAUCAACGAGAACGACACUCCGACCUCGCUGGAGAUGGAGGAGGGCGACACCAUCGAGGUUUACCAGCAGCAGACUGGUGGCGCUCCAUAAAUGUCUGACGAAAAGAAGGGAGGUGAGACCGAGCACAUCAACCUGAAGGUCCUCGGCCAGGACAACGCCGUCGUCCAGUUCAAGAUCAAGAAGCACACACCCUUGAGGAAGCUGAUGAACGCCUACUGCGACCGUGCCGGACUCUCCAUGCAGGUGGUGCGCUUCCGUUUCGACGGACAGCCCAUCAACGAGAACGACACUCCGACCUCGCUGGAGAUGGAGGAGGGCGACACCAUCGAGGUUUACCAGCAGCAGACUGGUGGCGCUCCAUAA
+
+
+
+```python
+
 
 ## Translation of RNA into Protein
 
