@@ -331,10 +331,5 @@ print(protein_sequence)
 
 ```python
 
-```
 
-
-```python
-
-```
 
