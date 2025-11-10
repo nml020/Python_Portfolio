@@ -305,9 +305,9 @@ print(rna_sequence)
 
 ```python
 
-## Translation of RNA into Protein
+## Translation of RNA into Proteins
 
-In this analysis, we took Ubiquitin's newly transcripted RNA and translated it into proteins: 
+In this analysis, we took the newly transcribed RNA of Ubiquitin and tranlated it into Protein:
 
 ```python
 # Prompt the user to eneter the input RNA file name
@@ -393,5 +393,7 @@ print(protein_sequence)
 ```
 
      MSDEKKGGETEHINLKVLGQDNAVVQFKIKKHTPLRKLMNAYCDRAGLSMQVVRFRFDGQPINENDTPTSLEMEEGDTIEVYQQQTGGAP
+
+
 
 
