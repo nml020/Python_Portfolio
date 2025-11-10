@@ -387,6 +387,88 @@ print(numpy.mean(data, axis=1))
      5.925 6.15  6.075 5.75  5.975 5.725 6.3   5.9   6.75  5.925 7.225 6.15
      5.95  6.275 5.7   6.1   6.825 5.975 6.725 5.7   6.25  6.4   7.05  5.9  ]
 
+## Defensive Programming
+
+In this analysis, we learned about coding specification when it comes to the Python system: 
+
+```python
+numbers = [1.5, 2.3, 0.7, 0.001, 4.4]
+total = 0.0
+for num in numbers:
+    assert num > 0.0, 'Data should only contain positive values'
+    total += num
+print('total is:', total)
+```
+
+    total is: 8.901
+
+
+
+```python
+def normalize_rectangle(rect):
+    """Normalizes a rectangle so that it is at the origin and 1.0 units long on its longest axis.
+    input should be of the format (x0, y0, x1, y1).
+    (x0, y0) and (x1, y1) define the lower left and upper right corners of the rectangle resepectively."""
+    assert len(rect) == 4, 'Rectangles must contain 4 coordinates'
+    x0, y0, x1, y1 = rect
+    assert x0 < x1, 'Invalid X coordinates'
+    assert y0 < y1, 'Invalid Y coordinates'
+    
+    dx = x1-x0
+    dy = y1 -y0
+    if dx > dy:
+        scaled = dy / dx
+        upper_x, upper_y = 1.0, scaled
+    else: 
+        scaled = dx / dy
+        upper_x, upper_y = scaled, 1.0
+        
+    assert 0 < upper_x <= 1.0, 'Calculated upper x coordiante invalid'
+    assert 0 < upper_y <= 1.0, 'Calculated upper y coordinate invalid'
+    
+    return (0, 0, upper_x, upper_y)
+```
+
+
+```python
+print(normalize_rectangle( (0.0, 1.0, 2.0) ))
+```
+
+
+    ---------------------------------------------------------------------------
+
+    AssertionError                            Traceback (most recent call last)
+
+    <ipython-input-3-f9d109085db1> in <module>
+    ----> 1 print(normalize_rectangle( (0.0, 1.0, 2.0) ))
+    
+
+    <ipython-input-2-ba8a41248af0> in normalize_rectangle(rect)
+          3     input should be of the format (x0, y0, x1, y1).
+          4     (x0, y0) and (x1, y1) define the lower left and upper right corners of the rectangle resepectively."""
+    ----> 5     assert len(rect) == 4, 'Rectangles must contain 4 coordinates'
+          6     x0, y0, x1, y1 = rect
+          7     assert x0 < x1, 'Invalid X coordinates'
+
+
+    AssertionError: Rectangles must contain 4 coordinates
+
+
+
+```python
+print(normalize_rectangle( (4.0, 2.0, 1.0, 5.0) ))
+```
+
+
+```python
+print(normalize_rectangle( (0.0, 0.0, 1.0, 5.0) ))
+```
+
+
+```python
+print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0) ))
+```
+
 ## Transcription of DNA into RNA
 
 In this analysis, we took Ubiquitin's DNA sequence and transcribed it into RNA:
