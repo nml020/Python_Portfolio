@@ -387,6 +387,91 @@ print(numpy.mean(data, axis=1))
      5.925 6.15  6.075 5.75  5.975 5.725 6.3   5.9   6.75  5.925 7.225 6.15
      5.95  6.275 5.7   6.1   6.825 5.975 6.725 5.7   6.25  6.4   7.05  5.9  ]
 
+```python
+odds = [1,3,5,7]
+```
+## Using Loops
+
+In this analysis, we learned how to list information, numbers, etc.: 
+
+```python
+print(odds[0])
+print(odds[1])
+print(odds[2])
+print(odds[3])
+```
+
+    1
+    3
+    5
+    7
+
+
+
+```python
+odds = [1,3,5]
+print(odds[0])
+print(odds[1])
+print(odds[2])
+print(odds[3])
+```
+
+    1
+    3
+    5
+
+
+
+    ---------------------------------------------------------------------------
+
+    IndexError                                Traceback (most recent call last)
+
+    <ipython-input-3-01ba67d8a9e5> in <module>
+          3 print(odds[1])
+          4 print(odds[2])
+    ----> 5 print(odds[3])
+    
+
+    IndexError: list index out of range
+
+
+
+```python
+odds = [1,3,5,7, 9, 11, 13, 15, 17, 19]
+
+for num in odds: 
+    print(num)
+```
+
+
+```python
+length = 0
+names = ['Curie', 'Darwin', 'Turing']
+for value in names:
+    length = length + 1
+print('There are', length, 'names in the list.')
+```
+
+
+```python
+name = "Rosalind"
+for name in ['Curie', 'Darwin', 'Turing']:
+    print(name)
+print('after the loop, name is', name)
+```
+
+
+```python
+print(len([0,1,2,3]))
+```
+
+
+```python
+name = ['Curie', 'Dawrin', 'Turing']
+
+print(len(name))
+```
+
 ## Defensive Programming
 
 In this analysis, we learned about coding specification when it comes to the Python system: 
