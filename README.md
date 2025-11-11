@@ -401,11 +401,7 @@ len(df.profit[non_numeric_profits])
 ```python
 bin_sizes,_, _ = plt.hist(df.year[non_numeric_profits], bins= range(1955, 2006))
 ```
-
-
-![png](output_11_0.png)
-
-
+<img width="682" height="407" alt="image" src="https://github.com/user-attachments/assets/31186668-42ea-4024-83ef-987aafc69a00" />
 
 ```python
 df = df.loc[~non_numeric_profits]
@@ -459,21 +455,14 @@ def plot(x, y, ax, title, y_label):
 fig, ax = plt.subplots()
 plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005', 'Profit (millions)')
 ```
-
-
-![png](output_16_0.png)
-
-
+<img width="744" height="422" alt="image" src="https://github.com/user-attachments/assets/1fa2b079-d5d0-41c3-acdb-a5c84b9a543f" />
 
 ```python
 y2 = avgs.revenue
 figs, ax = plt.subplots()
 plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005', 'Revenue (millions)')
 ```
-
-
-![png](output_17_0.png)
-
+<img width="742" height="448" alt="image" src="https://github.com/user-attachments/assets/ef199de2-c781-40d5-a54f-817351ef6f54" />
 
 
 ```python
@@ -489,9 +478,7 @@ plot_with_std(x, y2.values, stds2, ax2, title % 'profits', 'Revenue (millions)')
 fig.set_size_inches(14,4)
 fig.tight_layout()
 ```
-
-
-![png](output_18_0.png)
+<img width="1589" height="469" alt="image" src="https://github.com/user-attachments/assets/e8b2fb43-17fb-424a-a2b8-6739d040bd3b" />
 
 
 ## Python Fundamentals
