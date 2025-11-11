@@ -904,26 +904,23 @@ matplotlib.pyplot.show()
 ave_inflammation = numpy.mean(data, axis = 0)
 ave_plot = matplotlib.pyplot.plot(ave_inflammation)
 matplotlib.pyplot.show()
-<img width="675" height="398" alt="image" src="https://github.com/user-attachments/assets/053f9710-8436-414d-b21f-58b4ab454c54" />
 
 ```
-
+<img width="675" height="398" alt="image" src="https://github.com/user-attachments/assets/053f9710-8436-414d-b21f-58b4ab454c54" />
 
 ```python
 max_plot = matplotlib.pyplot.plot(numpy.amax(data, axis = 0))
 matplotlib.pyplot.show()
-<img width="706" height="401" alt="image" src="https://github.com/user-attachments/assets/f44db3cc-03eb-4368-836a-7a30aaf41a3c" />
 
 ```
-
+<img width="706" height="401" alt="image" src="https://github.com/user-attachments/assets/f44db3cc-03eb-4368-836a-7a30aaf41a3c" />
 
 ```python
 min_plot = matplotlib.pyplot.plot(numpy.amin(data, axis = 0))
 matplotlib.pyplot.show()
-<img width="675" height="415" alt="image" src="https://github.com/user-attachments/assets/f7c0acce-a089-427d-8860-b32e75ec92ab" />
 
 ```
-
+<img width="675" height="415" alt="image" src="https://github.com/user-attachments/assets/f7c0acce-a089-427d-8860-b32e75ec92ab" />
 
 ```python
 fig = matplotlib.pyplot.figure(figsize =(10.0, 3.0))
@@ -945,9 +942,9 @@ fig.tight_layout
 
 matplotlib.pyplot.savefig('inflammation.png')
 matplotlib.pyplot.show()
-<img width="1065" height="322" alt="image" src="https://github.com/user-attachments/assets/14652458-53f6-4c7d-8b54-98cc1c72a1fd" />
 
 ```
+<img width="1065" height="322" alt="image" src="https://github.com/user-attachments/assets/14652458-53f6-4c7d-8b54-98cc1c72a1fd" /> 
 
 ## Storing Values in Lists
 
