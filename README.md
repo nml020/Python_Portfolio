@@ -1587,40 +1587,13 @@ for filename in filenames:
 
 
 
-inflammation-01.csv
+<img width="1211" height="769" alt="image" src="https://github.com/user-attachments/assets/4fc42d2a-f549-4a90-b681-a9147bef5d47" />
+<img width="1171" height="786" alt="image" src="https://github.com/user-attachments/assets/cbd8b225-a014-4bd4-93db-93d7268ac72b" />
+<img width="1215" height="796" alt="image" src="https://github.com/user-attachments/assets/35c5e689-8963-4df1-8eb3-5028d2c2dbcf" />
+<img width="1220" height="783" alt="image" src="https://github.com/user-attachments/assets/d32b6bed-160a-48ce-a808-def742d89a21" />
 
-Suspicious looking maxima!
-inflammation-02.csv
 
-Suspicious looking maxima!
-inflammation-03.csv
 
-Minima add up to zero!
-inflammation-04.csv
-
-Suspicious looking maxima!
-inflammation-05.csv
-
-Suspicious looking maxima!
-inflammation-06.csv
-
-Suspicious looking maxima!
-inflammation-07.csv
-
-Suspicious looking maxima!
-inflammation-08.csv
-
-Minima add up to zero!
-inflammation-09.csv
-
-Suspicious looking maxima!
-inflammation-10.csv
-
-Suspicious looking maxima!
-inflammation-11.csv
-
-Minima add up to zero!
-inflammation-12.csv
 
 
 
