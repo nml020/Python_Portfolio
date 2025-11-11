@@ -1587,95 +1587,41 @@ for filename in filenames:
 
 
 
-![png](output_3_1.png)
+inflammation-01.csv
 
+Suspicious looking maxima!
+inflammation-02.csv
 
-    Suspicious looking maxima!
-    inflammation-02.csv
+Suspicious looking maxima!
+inflammation-03.csv
 
+Minima add up to zero!
+inflammation-04.csv
 
+Suspicious looking maxima!
+inflammation-05.csv
 
-![png](output_3_3.png)
+Suspicious looking maxima!
+inflammation-06.csv
 
+Suspicious looking maxima!
+inflammation-07.csv
 
-    Suspicious looking maxima!
-    inflammation-03.csv
+Suspicious looking maxima!
+inflammation-08.csv
 
+Minima add up to zero!
+inflammation-09.csv
 
+Suspicious looking maxima!
+inflammation-10.csv
 
-![png](output_3_5.png)
+Suspicious looking maxima!
+inflammation-11.csv
 
+Minima add up to zero!
+inflammation-12.csv
 
-    Minima add up to zero!
-    inflammation-04.csv
-
-
-
-![png](output_3_7.png)
-
-
-    Suspicious looking maxima!
-    inflammation-05.csv
-
-
-
-![png](output_3_9.png)
-
-
-    Suspicious looking maxima!
-    inflammation-06.csv
-
-
-
-![png](output_3_11.png)
-
-
-    Suspicious looking maxima!
-    inflammation-07.csv
-
-
-
-![png](output_3_13.png)
-
-
-    Suspicious looking maxima!
-    inflammation-08.csv
-
-
-
-![png](output_3_15.png)
-
-
-    Minima add up to zero!
-    inflammation-09.csv
-
-
-
-![png](output_3_17.png)
-
-
-    Suspicious looking maxima!
-    inflammation-10.csv
-
-
-
-![png](output_3_19.png)
-
-
-    Suspicious looking maxima!
-    inflammation-11.csv
-
-
-
-![png](output_3_21.png)
-
-
-    Minima add up to zero!
-    inflammation-12.csv
-
-
-
-![png](output_3_23.png)
 
 
     Suspicious looking maxima!
