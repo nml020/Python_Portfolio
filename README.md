@@ -1582,24 +1582,12 @@ for filename in filenames:
     visualize(filename)
     detect_problems(filename)
 ```
-
-    inflammation-01.csv
-
-
-
-<img width="1211" height="769" alt="image" src="https://github.com/user-attachments/assets/4fc42d2a-f549-4a90-b681-a9147bef5d47" />
-<img width="1171" height="786" alt="image" src="https://github.com/user-attachments/assets/cbd8b225-a014-4bd4-93db-93d7268ac72b" />
-<img width="1215" height="796" alt="image" src="https://github.com/user-attachments/assets/35c5e689-8963-4df1-8eb3-5028d2c2dbcf" />
-<img width="1220" height="783" alt="image" src="https://github.com/user-attachments/assets/d32b6bed-160a-48ce-a808-def742d89a21" />
-
-
-
-
-
-
-    Suspicious looking maxima!
-
-
+<img width="1203" height="795" alt="image" src="https://github.com/user-attachments/assets/c9b8340c-03e2-4fae-a8c8-22cade9f8f6e" />
+<img width="1182" height="781" alt="image" src="https://github.com/user-attachments/assets/0d96581a-edf9-4e49-b1b8-c9b593ab0512" />
+<img width="1189" height="780" alt="image" src="https://github.com/user-attachments/assets/48007aa4-a1ab-463f-9f73-89c1fe6b8cd0" />
+<img width="1173" height="795" alt="image" src="https://github.com/user-attachments/assets/95ffefce-24cf-47d1-b856-b5c224f90e74" />
+<img width="1189" height="793" alt="image" src="https://github.com/user-attachments/assets/4ecc22c1-67a3-4b07-96cb-fcc5549891a4" />
+<img width="1234" height="786" alt="image" src="https://github.com/user-attachments/assets/2e82dbe8-95a5-4a28-841f-1da848c05a6f" />
 
 ```python
 def offset_mean(data, target_mean_value):
